@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FYFDeviceInfo_Example' do
+  pod 'FYFDeviceInfo', :path => '../'
+
+  target 'FYFDeviceInfo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
