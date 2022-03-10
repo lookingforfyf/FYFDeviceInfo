@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A3EC03310442A86A402CB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A3EC03310442A86A402CB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		313A4595064BF23B00648C5E /* Pods-FYFDeviceInfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFDeviceInfo_Tests.release.xcconfig"; path = "Target Support Files/Pods-FYFDeviceInfo_Tests/Pods-FYFDeviceInfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3BA0BEF803F05CDC4264A588 /* Pods-FYFDeviceInfo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFDeviceInfo_Example.debug.xcconfig"; path = "Target Support Files/Pods-FYFDeviceInfo_Example/Pods-FYFDeviceInfo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		43756E8AD40E9BF980CBD1DB /* Pods-FYFDeviceInfo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFDeviceInfo_Example.release.xcconfig"; path = "Target Support Files/Pods-FYFDeviceInfo_Example/Pods-FYFDeviceInfo_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 		88E19FE7781926454355DF90 /* Pods_FYFDeviceInfo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFDeviceInfo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A634EE4D52F22E3C3B20C576 /* Pods-FYFDeviceInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFDeviceInfo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FYFDeviceInfo_Tests/Pods-FYFDeviceInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D26091F332FC97C6F33C578F /* Pods_FYFDeviceInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFDeviceInfo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4F14D26352E80F34E6DC960 /* FYFDeviceInfo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FYFDeviceInfo.podspec; path = ../FYFDeviceInfo.podspec; sourceTree = "<group>"; };
-		DEDEE5A7799F1F80A23328D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D4F14D26352E80F34E6DC960 /* FYFDeviceInfo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYFDeviceInfo.podspec; path = ../FYFDeviceInfo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DEDEE5A7799F1F80A23328D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				A634EE4D52F22E3C3B20C576 /* Pods-FYFDeviceInfo_Tests.debug.xcconfig */,
 				313A4595064BF23B00648C5E /* Pods-FYFDeviceInfo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
