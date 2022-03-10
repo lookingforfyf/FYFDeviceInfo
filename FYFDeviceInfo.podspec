@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FYFDeviceInfo'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of FYFDeviceInfo.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  
+  # 组件支持的架构，并且module化，为后期组件混编做准备，也为了规范化管理
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'arm64e arm64 armv7 armv7s x86_64',
+    'DEFINES_MODULE' => 'YES'
+  }
+  # 组件支持swift混编的版本
+  s.swift_versions = ['5.1', '5.2','5.3', '5.4']
 
   s.source_files = 'FYFDeviceInfo/Classes/**/*'
   
