@@ -50,7 +50,7 @@
 }
 
 + (NSInteger)appVersionNumber {
-    return (NSInteger)abs((int)[[[KSAppInfoUtil appVersion] stringByReplacingOccurrencesOfString:@"." withString:@""] integerValue]);
+    return (NSInteger)abs((int)[[[FYFAppInfoUtil appVersion] stringByReplacingOccurrencesOfString:@"." withString:@""] integerValue]);
 }
 
 + (NSURL *)documentsURL {
